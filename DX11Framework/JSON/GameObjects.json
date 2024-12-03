@@ -1,0 +1,395 @@
+{
+  "GameObjects": [
+    {
+      "Name": "Plane",
+      "MeshID": 1,
+      "TextureID": 2,
+      "SpecularTextureID": -1,
+      "CollisionEnabled": false,
+      "Hitbox": {
+        "MinX": -1,
+        "MinY": -1,
+        "MinZ": -1,
+        "MaxX": 1,
+        "MaxY": 1,
+        "MaxZ": 1
+      },
+      "Position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "Name": "Car",
+      "MeshID": 0,
+      "TextureID": 3,
+      "SpecularTextureID": -1,
+      "CollisionEnabled": false,
+      "Hitbox": {
+        "MinX": -1,
+        "MinY": -1,
+        "MinZ": -1,
+        "MaxX": 1,
+        "MaxY": 1,
+        "MaxZ": 1
+      },
+      "Position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "Name": "Crate",
+      "MeshID": 2,
+      "TextureID": 0,
+      "SpecularTextureID": 9,
+      "CollisionEnabled": true,
+      "Hitbox": {
+        "MinX": -1,
+        "MinY": -1,
+        "MinZ": -1,
+        "MaxX": 1,
+        "MaxY": 1,
+        "MaxZ": 1
+      },
+      "Position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      }
+    },
+    {
+      "Name": "Crate2",
+      "MeshID": 3,
+      "SpecularTextureID": 9,
+      "CollisionEnabled": false,
+      "Hitbox": {
+        "MinX": -1,
+        "MinY": -1,
+        "MinZ": -1,
+        "MaxX": 1,
+        "MaxY": 1,
+        "MaxZ": 1
+      },
+      "TextureID": 1,
+      "Position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "Name": "Road Straight",
+      "MeshID": 6,
+      "TextureID": 4,
+      "SpecularTextureID": -1,
+      "CollisionEnabled": false,
+      "Hitbox": {
+        "MinX": -1,
+        "MinY": -1,
+        "MinZ": -1,
+        "MaxX": 1,
+        "MaxY": 1,
+        "MaxZ": 1
+      },
+      "Position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Scale": {
+        "x": 0.25,
+        "y": 0.25,
+        "z": 0.25
+      }
+    },
+    {
+      "Name": "Skybox",
+      "MeshID": 2,
+      "TextureID": 5,
+      "SpecularTextureID": -1,
+      "CollisionEnabled": false,
+      "Hitbox": {
+        "MinX": -1,
+        "MinY": -1,
+        "MinZ": -1,
+        "MaxX": 1,
+        "MaxY": 1,
+        "MaxZ": 1
+      },
+      "Position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "Name": "Road Crossroad",
+      "MeshID": 7,
+      "TextureID": 4,
+      "SpecularTextureID": -1,
+      "CollisionEnabled": false,
+      "Hitbox": {
+        "MinX": -1,
+        "MinY": -1,
+        "MinZ": -1,
+        "MaxX": 1,
+        "MaxY": 1,
+        "MaxZ": 1
+      },
+      "Position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Scale": {
+        "x": 0.25,
+        "y": 0.25,
+        "z": 0.25
+      }
+    },
+    {
+      "Name": "Road Tjunction",
+      "MeshID": 8,
+      "TextureID": 4,
+      "SpecularTextureID": -1,
+      "CollisionEnabled": false,
+      "Hitbox": {
+        "MinX": -1,
+        "MinY": -1,
+        "MinZ": -1,
+        "MaxX": 1,
+        "MaxY": 1,
+        "MaxZ": 1
+      },
+      "Position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Scale": {
+        "x": 0.25,
+        "y": 0.25,
+        "z": 0.25
+      }
+    },
+    {
+      "Name": "Road Corner",
+      "MeshID": 9,
+      "TextureID": 4,
+      "SpecularTextureID": -1,
+      "CollisionEnabled": false,
+      "Hitbox": {
+        "MinX": -1,
+        "MinY": -1,
+        "MinZ": -1,
+        "MaxX": 1,
+        "MaxY": 1,
+        "MaxZ": 1
+      },
+      "Position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Scale": {
+        "x": 0.25,
+        "y": 0.25,
+        "z": 0.25
+      }
+    },
+    {
+      "Name": "Grass Tile",
+      "MeshID": 10,
+      "TextureID": 6,
+      "SpecularTextureID": -1,
+      "CollisionEnabled": false,
+      "Hitbox": {
+        "MinX": -1,
+        "MinY": -1,
+        "MinZ": -1,
+        "MaxX": 1,
+        "MaxY": 1,
+        "MaxZ": 1
+      },
+      "Position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Scale": {
+        "x": 0.25,
+        "y": 0.25,
+        "z": 0.25
+      }
+    },
+    {
+      "Name": "Brick Building",
+      "MeshID": 11,
+      "TextureID": 7,
+      "SpecularTextureID": 7,
+      "CollisionEnabled": true,
+      "Hitbox": {
+        "MinX": -10,
+        "MinY": -30,
+        "MinZ": -10,
+        "MaxX": 10,
+        "MaxY": 30,
+        "MaxZ": 10
+      },
+      "Position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Scale": {
+        "x": 0.25,
+        "y": 0.25,
+        "z": 0.25
+      }
+    },
+    {
+      "Name": "Apartment Building",
+      "MeshID": 12,
+      "TextureID": 8,
+      "SpecularTextureID": -1,
+      "CollisionEnabled": true,
+      "Hitbox": {
+        "MinX": -10,
+        "MinY": -45,
+        "MinZ": -10,
+        "MaxX": 10,
+        "MaxY": 45,
+        "MaxZ": 10
+      },
+      "Position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Scale": {
+        "x": 0.25,
+        "y": 0.25,
+        "z": 0.25
+      }
+    },
+    {
+      "Name": "Lamppost",
+      "MeshID": 13,
+      "TextureID": 10,
+      "SpecularTextureID": -1,
+      "CollisionEnabled": false,
+      "Hitbox": {
+        "MinX": -1,
+        "MinY": -1,
+        "MinZ": -1,
+        "MaxX": 1,
+        "MaxY": 1,
+        "MaxZ": 1
+      },
+      "Position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      }
+    }
+  ],
+  "version": "1.5"
+}
